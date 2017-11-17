@@ -9,3 +9,10 @@ drink poison
 
 sleep well
 get job in google
+
+  class kill
+  {
+  public static void main(String[] args)
+  {
+  System.out.println("you are dead");
+  }
