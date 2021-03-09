@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
+    <link rel="stylesheet" href="./quiz.css">
 </head>
 <body>
-    
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h3 class="quiz-question">How was Your day</h3>
+            <ul class="quiz-lists">
+                <li class="quiz-list">
+                    <input type="radio" name="options" id="option_1" value="">
+                    <label for="option_1">a</label>
+                </li>
+                <li class="quiz-list">
+                    <input type="radio" name="options" id="option_2" value="">
+                    <label for="option_2">a</label>
+                </li>
+                <li class="quiz-list">
+                    <input type="radio" name="options" id="option_3" value="">
+                    <label for="option_3">a</label>
+                </li>
+                <li class="quiz-list">
+                    <input type="radio" name="options" id="option_4" value="">
+                    <label for="option_4">a</label>
+                </li>
+            </ul>
+        </div>
+
+        <button id="submit" class="quiz-button">submit</button>
+    </div>
+    <script src="./quiz.js"></script>
 </body>
 </html>
