@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,32 +8,43 @@
 }
 
 
-body{
-background-color: #b8c6db;
-background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+body {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.quiz-container{
+.quiz-container {
     background-color: #fff;
     width: 600px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 2px grey;
     max-width: 100%;
-    
+
 
 }
 
-.quiz-lists{
+
+ul li {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+li label {
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.quiz-lists {
     list-style: none;
 
 }
 
-.quiz-button{
+.quiz-button {
     display: inline-block;
     width: 100%;
     padding: 1rem;
@@ -42,8 +53,15 @@ align-items: center;
     font-size: 1rem;
     border: none;
     font-weight: 600;
+    cursor: pointer;
 }
 
-.quiz-header{
+.quiz-button:hover {
+
+    background: #831683;
+
+}
+
+.quiz-header {
     padding: 2rem;
 }
