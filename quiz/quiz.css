@@ -54,13 +54,22 @@ li label {
     border: none;
     font-weight: 600;
     cursor: pointer;
+    border: none;
 }
 
 .quiz-button:hover {
-
+    background: #831683;
+}
+.quiz-button:active {
     background: #831683;
 
 }
+
+.quiz-button:focus {
+    outline: none;
+    border: none;
+
+  }
 
 .quiz-header {
     padding: 2rem;
