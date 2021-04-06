@@ -20,7 +20,6 @@ body{
 .container{
     background-color: #fff;
     border-radius: 1rem;
-    padding: 1rem;
     box-shadow: 0 2px 5px grey;
     width: 400px;
     max-width: 100%;
@@ -31,4 +30,30 @@ body{
     font-size: 1rem;
     font-weight: 600;
     border-bottom: 2px solid grey;
+}
+
+.container-body{
+    padding: 1rem;
+}
+.container-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-submit{
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    background: #269026;
+    font-size: 1rem;
+    box-shadow: none !important;
+    border: none;
+}
+
+.form-control{
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 2px solid darkgrey;
 }

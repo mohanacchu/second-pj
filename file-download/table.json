@@ -1,0 +1,411 @@
+{
+    "status": true,
+    "message": "Fetched data successfully!",
+    "data": {
+        "table_data": {
+            "title": "Energy Impact",
+            "headerContent": [
+                {
+                    "key": "month",
+                    "label": "MONTH"
+                },
+                {
+                    "key": "year",
+                    "label": "YEAR"
+                },
+                {
+                    "key": "elec",
+                    "label": "ELEC."
+                },
+                {
+                    "key": "natualGas",
+                    "label": "NATURAL GAS"
+                },
+                {
+                    "key": "fuelOil2",
+                    "label": "#2 FUEL OIL"
+                },
+                {
+                    "key": "fuelOil4",
+                    "label": "#4 FUEL OIL"
+                },
+                {
+                    "key": "steam",
+                    "label": "STEAM"
+                }
+            ],
+            "bodyContent": [
+                {
+                    "month": "Total",
+                    "year": "N/A",
+                    "elec": "00 kWh",
+                    "natualGas": "00 kWh",
+                    "fuelOil2": "00 kWh",
+                    "fuelOil4": "00 kWh",
+                    "steam": "00 kWh"
+                },
+                {
+                    "month": "January",
+                    "year": "2020",
+                    "elec": "00 kWh",
+                    "natualGas": "00 kWh",
+                    "fuelOil2": "00 kWh",
+                    "fuelOil4": "00 kWh",
+                    "steam": "00 kWh"
+                },
+                {
+                    "month": "February",
+                    "year": "2020",
+                    "elec": "00 kWh",
+                    "natualGas": "00 kWh",
+                    "fuelOil2": "00 kWh",
+                    "fuelOil4": "00 kWh",
+                    "steam": "00 kWh"
+                }
+            ]
+        },
+        "energyCharts": {
+            "title": "Energy Impact",
+            "energyImpact": {
+                "tooltip": {
+                  "trigger": "axis",
+                  "axisPointer": {
+                    "type": "shadow"
+                  }
+                },
+                "legend": {
+                  "bottom": 0
+                },
+                "color": [
+                    "#0091da",
+                    "#6d2077",
+                    "#00178e",
+                    "#00a3a1",
+                    "#8497b0"
+                ],
+                "barWidth": 35,
+                "xAxis": {
+                  "type": "category",
+                  "data": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
+                  ]
+                },
+                "yAxis": {
+                  "scale": true,
+                  "type": "value",
+                  "name": "Savings (kWh)",
+                  "nameLocation": "middle",
+                  "nameGap": 55
+                },
+                "series": [
+                  {
+                    "name": "Electricity",
+                    "type": "bar",
+                    "stack": "anyString",
+                    "label": {
+                      "show": false,
+                      "position": "insideRight"
+                    },
+                    "data": [
+                      [
+                        "Jan",
+                        74.1
+                      ],
+                      [
+                        "Feb",
+                        74.1
+                      ],
+                      [
+                        "Mar",
+                        74.1
+                      ],
+                      [
+                        "Apr",
+                        74.1
+                      ],
+                      [
+                        "May",
+                        111.5
+                      ],
+                      [
+                        "Jun",
+                        74.4
+                      ],
+                      [
+                        "Jul",
+                        74.4
+                      ],
+                      [
+                        "Aug",
+                        111.5
+                      ],
+                      [
+                        "Sep",
+                        74.1
+                      ],
+                      [
+                        "Oct",
+                        74.1
+                      ],
+                      [
+                        "Nov",
+                        74.1
+                      ],
+                      [
+                        "Dec",
+                        74.1
+                      ]
+                    ]
+                  },
+                  {
+                    "name": "Natural Gas",
+                    "type": "bar",
+                    "stack": "anyString",
+                    "label": {
+                      "show": false,
+                      "position": "insideRight"
+                    },
+                    "data": [
+                      [
+                        "Jan",
+                        77.8
+                      ],
+                      [
+                        "Feb",
+                        77.8
+                      ],
+                      [
+                        "Mar",
+                        77.8
+                      ],
+                      [
+                        "Apr",
+                        77.8
+                      ],
+                      [
+                        "May",
+                        117.1
+                      ],
+                      [
+                        "Jun",
+                        78.2
+                      ],
+                      [
+                        "Jul",
+                        78.2
+                      ],
+                      [
+                        "Aug",
+                        117.1
+                      ],
+                      [
+                        "Sep",
+                        77.8
+                      ],
+                      [
+                        "Oct",
+                        77.8
+                      ],
+                      [
+                        "Nov",
+                        77.8
+                      ],
+                      [
+                        "Dec",
+                        77.8
+                      ]
+                    ]
+                  },
+                  {
+                    "name": "#2 Fuel Oil",
+                    "type": "bar",
+                    "stack": "anyString",
+                    "label": {
+                      "show": false,
+                      "position": "insideRight"
+                    },
+                    "data": [
+                      [
+                        "Jan",
+                        70.6
+                      ],
+                      [
+                        "Feb",
+                        70.6
+                      ],
+                      [
+                        "Mar",
+                        70.6
+                      ],
+                      [
+                        "Apr",
+                        70.6
+                      ],
+                      [
+                        "May",
+                        105.9
+                      ],
+                      [
+                        "Jun",
+                        70.6
+                      ],
+                      [
+                        "Jul",
+                        70.6
+                      ],
+                      [
+                        "Aug",
+                        105.9
+                      ],
+                      [
+                        "Sep",
+                        70.5
+                      ],
+                      [
+                        "Oct",
+                        70.5
+                      ],
+                      [
+                        "Nov",
+                        70.5
+                      ],
+                      [
+                        "Dec",
+                        70.5
+                      ]
+                    ]
+                  },
+                  {
+                    "name": "#4 Fuel Oil",
+                    "type": "bar",
+                    "stack": "anyString",
+                    "label": {
+                      "show": false,
+                      "position": "insideRight"
+                    },
+                    "data": [
+                      [
+                        "Jan",
+                        65.9
+                      ],
+                      [
+                        "Feb",
+                        65.9
+                      ],
+                      [
+                        "Mar",
+                        65.9
+                      ],
+                      [
+                        "Apr",
+                        65.9
+                      ],
+                      [
+                        "May",
+                        99.1
+                      ],
+                      [
+                        "Jun",
+                        66.2
+                      ],
+                      [
+                        "Jul",
+                        66.2
+                      ],
+                      [
+                        "Aug",
+                        99.1
+                      ],
+                      [
+                        "Sep",
+                        65.9
+                      ],
+                      [
+                        "Oct",
+                        65.9
+                      ],
+                      [
+                        "Nov",
+                        65.9
+                      ],
+                      [
+                        "Dec",
+                        65.9
+                      ]
+                    ]
+                  },
+                  {
+                    "name": "Steam",
+                    "type": "bar",
+                    "stack": "anyString",
+                    "label": {
+                      "show": false,
+                      "position": "insideRight"
+                    },
+                    "data": [
+                      [
+                        "Jan",
+                        76.2
+                      ],
+                      [
+                        "Feb",
+                        76.2
+                      ],
+                      [
+                        "Mar",
+                        76.2
+                      ],
+                      [
+                        "Apr",
+                        76.2
+                      ],
+                      [
+                        "May",
+                        113.6
+                      ],
+                      [
+                        "Jun",
+                        75.5
+                      ],
+                      [
+                        "Jul",
+                        75.5
+                      ],
+                      [
+                        "Aug",
+                        113.6
+                      ],
+                      [
+                        "Sep",
+                        76.2
+                      ],
+                      [
+                        "Oct",
+                        76.2
+                      ],
+                      [
+                        "Nov",
+                        76.2
+                      ],
+                      [
+                        "Dec",
+                        76.2
+                      ]
+                    ]
+                  }        ]
+              }
+        }
+
+    }
+}

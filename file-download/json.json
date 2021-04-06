@@ -1,0 +1,91 @@
+{
+    "status": true,
+    "message": "Fetched data successfully!",
+    "data": {
+        "project": {
+            "url": "image.url",
+            "name": "Project 1",
+            "projectDetails": [
+                {
+                    "label": "Project Number",
+                    "value": "25"
+                },
+                {
+                    "label": "Status",
+                    "value": "In Progress"
+                },
+                {
+                    "label": "Start Date",
+                    "value": "24/12/2019"
+                },
+                {
+                    "label": "End Date",
+                    "value": "12/31/2021"
+                },
+                {
+                    "label": "Impact Measurement",
+                    "value": "Energy Conservation"
+                },
+                {
+                    "label": "Geographic Scope",
+                    "value": "USA"
+                },
+                {
+                    "label": "Owner",
+                    "value": "Creed Bratton"
+                },
+                {
+                    "label": "Budget",
+                    "value": "$100"
+                },
+                {
+                    "label": "Measurement Frequency",
+                    "value": "Monthly"
+                },
+                {
+                    "label": "Project Description",
+                    "value": "Project Description"
+                }
+            ]
+        },
+        "projectTiles":[
+            {
+                "title": "Project Savings",
+                "value": "0.00",
+                "unit":"$",
+                "subValue": "$ 00",
+                "subTitle":"Total Projected"
+            },
+            {
+                "title": "Energy Savings",
+                "value": "0.00",
+                "unit":"kWh",
+                "subValue": "00 kWh",
+                "subTitle":"Total Projected"
+            },
+            {
+                "title": "Emissions Reduced",
+                "value": "0.00",
+                "unit":"MtCO2e",
+                "subValue": "00 MtCO2e",
+                "subTitle":"Total Projected"
+            }
+        ],
+        "coveredSites": {
+            "sites": [
+                {
+                    "label":"345 Park Ave, NY",
+                    "value":"345 Park Ave, NY"
+                },
+                {
+                    "label":"500 Lexington Ave, Ny",
+                    "value":"500 Lexington Ave, Ny"
+                },
+                {
+                    "label":"60 South St, MA",
+                    "value":"60 South St, MA"
+                }
+            ]
+        }
+    }
+}
